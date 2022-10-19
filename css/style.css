@@ -848,6 +848,14 @@ section {
   font-size: 2rem;
   color: var(--black);
   text-transform: capitalize;
+  text-align: left;
+}
+
+.blogs .slide .content h4 {
+  font-size: 1.5rem;
+  color: var(--black);
+  text-transform: capitalize;
+  text-align: left;
 }
 
 .blogs .slide .content p {
@@ -855,6 +863,21 @@ section {
   font-size: 1.4rem;
   color: var(--light-color);
   line-height: 2;
+  text-align: left;
+
+}
+
+.blogs .slide .content ul {
+  font-size: 1.4rem;
+  color: var(--light-color);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.blogs .slide .content ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 5px;
 }
 
 .logo-container {
